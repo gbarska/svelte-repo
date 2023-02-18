@@ -6,7 +6,7 @@ export class FlickService {
       id: 1,
       genre: "Musical",
       title: "The art of Music",
-      image: "~/assets/ingles.jpg",
+      image: "https://raw.githubusercontent.com/gbarska/svelte-repo/master/apps/example-app/app/assets/ingles.jpg",
       url: "https://nativescript.org/images/ngconf/book-of-mormon.mov",
       description: `A satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day Saints.`,
       details: [
@@ -36,7 +36,7 @@ export class FlickService {
       id: 2,
       genre: "Musical",
       title: "Salud mental y meditación",
-      image: "~/assets/espanol.jpg",
+      image: "https://raw.githubusercontent.com/gbarska/svelte-repo/master/apps/example-app/app/assets/espanol.jpg",
       url: "https://nativescript.org/images/ngconf/beetlejuice.mov",
       description: `A deceased couple looks for help from a devious bio-exorcist to handle their haunted house.`,
       details: [
@@ -66,7 +66,7 @@ export class FlickService {
       id: 3,
       genre: "Musical",
       title: "La technologie",
-      image: "~/assets/frances.jpg",
+      image: "https://raw.githubusercontent.com/gbarska/svelte-repo/master/apps/example-app/app/assets/frances.jpg",
       url: "https://nativescript.org/images/ngconf/anastasia.mov",
       description: `The legend of Grand Duchess Anastasia Nikolaevna of Russia.`,
       details: [

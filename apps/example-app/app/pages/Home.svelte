@@ -1,5 +1,5 @@
 <page>
-  <actionBar title="NativeFlix" />
+  <actionBar title="TALKNTALK" />
   <stackLayout height="100%">
     <listView
         height="100%"
@@ -37,6 +37,7 @@
             </gridLayout>
           </Template>
     </listView>
+
   </stackLayout>
 </page>
 
@@ -45,7 +46,7 @@
 	import { Template } from 'svelte-native/components'
   import Details from './Details.svelte';
 	import { FlickService } from '../services/flickService';
-
+  
   let flicks = FlickService.getInstance().getFlicks();
   
   function onFlickTap(event) {
